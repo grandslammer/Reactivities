@@ -14,10 +14,9 @@ function App() {
 	return (
 		<>
 			<ul>
-				{activities.map((activity: any) => {
-					<li key={activity.id}>{activity.title}</li>;
-				})}
-				<li>TEST</li>
+				{activities.map((activity: any) => (
+					<li key={activity.id}>{activity.title}</li>
+				))}
 			</ul>
 		</>
 	);
